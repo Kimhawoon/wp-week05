@@ -23,7 +23,7 @@
     top: 80px;
     left: 50px;
     color: white;
-    animation-name: banner-title;
+    animation-name: slide;
     animation-duration: 1.5s;
     animation-timing-function: ease-out;
   }
@@ -33,16 +33,16 @@
     left: 60px;
     width: 40%;
     color: #eee;
-    animation-name: banner-content;
+    animation-name: opacity;
     animation-duration: 3s;
   }
   
-  @keyframes banner-title {
+  @keyframes slide {
     from { left: -50%; }
     to { left: 50px; }
   }
   
-  @keyframes banner-content {
+  @keyframes opacity {
     from { opacity: 0; }
     to { opacity: 1; }
   }
